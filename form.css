@@ -1,0 +1,75 @@
+body{
+    text-align: center;
+    background-image: url("https://i0.wp.com/techpoint.ng/wp-content/uploads/2018/07/VGG-vibranium-1.jpg?ssl=1"); 
+    background-position: center;
+    background-repeat:  no-repeat;
+    height: 100%;
+    background-size: cover;
+}
+
+#venture-form{
+    width : 900px;
+    margin : 0 auto;
+    background-color: darksalmon;
+
+}
+
+.description {
+    margin: 0 auto;
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.row-tab {
+    display: block;
+    padding-top: 20px;
+    background-color: darksalmon
+}
+
+.label-venture{
+    display : inline-block;
+    width : 40%;
+    font-size: 15px;
+}
+
+.input-venture {
+    display: inline-block;
+    width: 48%;
+    text-align: left;
+}
+.label-select {
+    display: inline-block;
+    width: 48%;
+}
+
+.select-input {
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+}
+
+.label-radio {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+
+.input-radio {
+    display : inline-block;
+    width: 40%;
+    text-align: left;
+}
+.text-area {
+    display: inline-grid;
+    width: 40%;
+}
+
+.submit-button{
+    display: inline-block;
+    width: 40%;
+}
+
+.button {
+    padding : 10px;
+}
