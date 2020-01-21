@@ -7,11 +7,19 @@ body{
     background-size: cover;
 }
 
+h1 {
+    color : whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    
+    
+}
+
 #venture-form{
     width : 900px;
     margin : 0 auto;
-    background-color: darksalmon;
-
+    background-color: black;
+    color: blanchedalmond;
 }
 
 .description {
@@ -24,7 +32,7 @@ body{
 .row-tab {
     display: block;
     padding-top: 20px;
-    background-color: darksalmon
+    background-color: black;
 }
 
 .label-venture{
