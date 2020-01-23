@@ -20,6 +20,8 @@ h1 {
     margin : 0 auto;
     background-color: black;
     color: blanchedalmond;
+    position: static;
+    box-sizing: border-box;
 }
 
 .description {
