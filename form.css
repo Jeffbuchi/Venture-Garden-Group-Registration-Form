@@ -82,6 +82,7 @@ h1 {
     width: 48%;
     text-align: left;
 }
+
 .label-select {
     display: inline-block;
     width: 48%;
@@ -122,6 +123,7 @@ h1 {
 .button:focus {
     background: #0053ba;
     color: beige;
+    transition: all 2s ease-in-out;
 }
 
 .button:focus {
