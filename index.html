@@ -23,7 +23,7 @@
                         <label>*Email</label>
                     </div>
                     <div class="input-venture">
-                        <input type = "text" placeholder="Email">
+                        <input id = "email" type = "text" placeholder="Email">
                     </div>
                 </div>
                 
@@ -32,7 +32,7 @@
                         <label>*Age</label>
                     </div>
                     <div class="input-venture">
-                        <input type = "text" placeholder="Age">
+                        <input id = "age" type = "text" placeholder="Age">
                     </div>
                 </div>
                 <div class = "row-tab">
@@ -56,7 +56,8 @@
                         <label>Which option best describes your technology stack?</label>
                     </div>
                     <div class="select-input">
-                        <select>
+                        <select id = "dropdown">
+                            <option value ="select stack"></option>
                             <option value="frontend">FrontEnd</option>
                             <option value= "backend"> Backend</option>
                             <option value = "devops">Devops</option>
@@ -72,22 +73,22 @@
                     <div class="input-radio">
                         <div>
                             <label>
-                                <input type="radio" name="feedback">
+                                <input type="radio" name="feedback" id = "beginner">
                             </label> Beginner
                         </div>
                         <div>
                             <label>
-                                <input type="radio" name="feedback">
+                                <input type="radio" name="feedback" id = "intermediate">
                             </label>Intermediate
                         </div>
                         <div>
                             <label>
-                                <input type="radio" name="feedback">
+                                <input type="radio" name="feedback" id = "advanced">
                             </label> Advanced
                         </div>
                         <div>
                             <label>
-                                <input type="radio" name="feedback">
+                                <input type="radio" name="feedback" id = "expert">
                             </label> Expert
                         </div>
                     </div>
@@ -97,7 +98,7 @@
                     <div class="text-area">
                         Any comments or observation?
                     </div>
-                    <textarea>Enter Additional comments</textarea>
+                    <textarea id = "text">Enter Additional comments</textarea>
                 </div>
                 <div class="row-tab">
                     <div class="submit-button">Submit Here: </div>
