@@ -6,16 +6,16 @@
         <link rel="stylesheet" type = "text/css" href="form.css"/>
     </head>
     <body>
-        <h1>Venture Garden Registration Form</h1>
+        <h1 id="caption">Venture Garden Registration Form</h1>
         <div class="formstage">
-            <form id = "venture-form">
+            <form id = "venture-form" action="test.html" method="post" onsubmit="return validate()">
                 <p class ="description">Let Us know you better</p>
                 <div class = "row-tab">
                     <div class="label-venture">
                         <label>*Name</label>
                     </div>
                     <div class="input-venture">
-                        <input type = "text" placeholder="Name">
+                        <input id = "name" type = "text" placeholder="Name"></input>
                     </div>
                 </div>
                 <div class = "row-tab">
@@ -26,12 +26,29 @@
                         <input type = "text" placeholder="Email">
                     </div>
                 </div>
+                
                 <div class = "row-tab">
                     <div class="label-venture">
                         <label>*Age</label>
                     </div>
                     <div class="input-venture">
                         <input type = "text" placeholder="Age">
+                    </div>
+                </div>
+                <div class = "row-tab">
+                    <div class="label-venture">
+                        <label>*Password</label>
+                    </div>
+                    <div class="input-venture">
+                        <input id = "password" type = "password" placeholder="Password">
+                    </div>
+                </div>
+                <div class = "row-tab">
+                    <div class="label-venture">
+                        <label>*Confirm Password</label>
+                    </div>
+                    <div class="input-venture">
+                        <input id = "confirm_password" type = "password" placeholder="Confirm Password">
                     </div>
                 </div>
                 <div class = "row-tab">
@@ -89,4 +106,5 @@
             </form>
         </div>
     </body>
+    <script src="logic.js"></script>
 </html>
