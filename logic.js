@@ -1,4 +1,4 @@
-document.getElementById("caption").innerHTML = "Venture Garden Registration Form Session 101";
+document.getElementById("caption").innerHTML = "Venture Garden Registration Form";
 
 function InternsName (firstName, lastName) {
     return `My fullname is ${lastName} ${firstName}`;
