@@ -16,7 +16,7 @@ function validate() {
     }
     
     else if (password.length < 8 || password.length > 16) {
-        alert("Error: Password must be up to 8 characters");
+        alert("Error: Password must be up to 8 characters and less than 16 characters");
         return false;
     }
 
