@@ -34,9 +34,11 @@ function validate() {
         console.log(`${radio}`);
         console.log(`${text}`);
         alert("You have successfully submitted");
+
     }
 
 }
+
 
 
 
