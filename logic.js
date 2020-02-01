@@ -35,7 +35,7 @@ function validate() {
         console.log(`${text}`);
         alert("You have successfully submitted");
     }
-    return true;
+
 }
 
 
