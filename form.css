@@ -129,6 +129,7 @@ select:focus {
     display: inline-grid;
     width: 40%;
     vertical-align: left;
+    
 }
 textarea{
 	margin-top: 1%;
