@@ -9,6 +9,7 @@ function validate() {
     let dropDown = document.getElementById("dropdown").value;
     let radio = document.querySelector('input[name="feedback"]:checked').value;
     let text = document.getElementById("comment").value;
+    event.preventDefault();
 
     if (name == "" || email == "" || age == ""  || dropDown == ""  ||  radio == "" || text == "") {
         alert ("input fields"); 
@@ -36,7 +37,7 @@ function validate() {
         alert("You have successfully submitted");
 
     }
-
+    return true;
 }
 
 
